@@ -1,0 +1,49 @@
+body{
+    background-color: aqua;
+}
+
+#dragdiv{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 25rem;
+    height: 15rem;
+    background-color: white;
+    /* margin: 0 auto; */
+    font-family: sans-serif;
+    position: relative;
+}
+
+#heading{
+    margin-left: 2rem;
+}
+
+/* Your previous CSS styles for the draggableDiv */
+
+.resize-handle {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: nwse-resize;
+}
+
+.resize-handle.top-left {
+    top: 0;
+    left: 0;
+}
+
+.resize-handle.top-right {
+    top: 0;
+    right: 0;
+}
+
+.resize-handle.bottom-left {
+    bottom: 0;
+    left: 0;
+}
+
+.resize-handle.bottom-right {
+    bottom: 0;
+    right: 0;
+}
